@@ -1,0 +1,481 @@
+[
+  {
+    "id": 1,
+    "type": "in_scope",
+    "question": "What is Service-Oriented Architecture (SOA)?",
+    "expected_pages": [
+      2
+    ],
+    "expected_keywords": [
+      "service orientation",
+      "self-contained"
+    ],
+    "reference_answer": "An architectural style that supports service orientation: services are self-contained building blocks that communicate through standard protocols and are loosely coupled."
+  },
+  {
+    "id": 2,
+    "type": "in_scope",
+    "question": "Give examples of functionality that a service in SOA can provide.",
+    "expected_pages": [
+      2
+    ],
+    "expected_keywords": [
+      "payment processing",
+      "user authentication",
+      "order tracking"
+    ],
+    "reference_answer": "Payment processing, user authentication, order tracking."
+  },
+  {
+    "id": 3,
+    "type": "in_scope",
+    "question": "What are the key components of SOA in cloud computing?",
+    "expected_pages": [
+      3
+    ],
+    "expected_keywords": [
+      "Service Provider",
+      "Service Consumer",
+      "Service Registry",
+      "Service Contract"
+    ],
+    "reference_answer": "Service Provider, Service Consumer (Client), Service Registry, Service Contract."
+  },
+  {
+    "id": 4,
+    "type": "in_scope",
+    "question": "What is the role of the service registry?",
+    "expected_pages": [
+      3
+    ],
+    "expected_keywords": [
+      "directory",
+      "UDDI"
+    ],
+    "reference_answer": "A directory that keeps records of all available services and enables their discovery (like UDDI)."
+  },
+  {
+    "id": 5,
+    "type": "in_scope",
+    "question": "What does a service contract define?",
+    "expected_pages": [
+      3
+    ],
+    "expected_keywords": [
+      "WSDL",
+      "Swagger"
+    ],
+    "reference_answer": "The interface (WSDL for SOAP, Open API/Swagger for REST) and the terms of service usage."
+  },
+  {
+    "id": 6,
+    "type": "in_scope",
+    "question": "What are the layers in SOA architecture?",
+    "expected_pages": [
+      4,
+      5,
+      6
+    ],
+    "expected_keywords": [
+      "Service Layer",
+      "Business Process Layer",
+      "Consumer Layer",
+      "Integration Layer"
+    ],
+    "reference_answer": "Service layer, business process layer, consumer layer and integration layer (the diagram also shows a data layer)."
+  },
+  {
+    "id": 7,
+    "type": "in_scope",
+    "question": "What does REST stand for and who first presented it?",
+    "expected_pages": [
+      7
+    ],
+    "expected_keywords": [
+      "Representational State Transfer",
+      "Roy Fielding"
+    ],
+    "reference_answer": "Representational State Transfer; first presented by Roy Fielding in 2000 in his dissertation."
+  },
+  {
+    "id": 8,
+    "type": "in_scope",
+    "question": "What does the stateless constraint mean in REST?",
+    "expected_pages": [
+      7
+    ],
+    "expected_keywords": [
+      "stateless",
+      "stored context"
+    ],
+    "reference_answer": "Each request must contain all the information needed to understand it and cannot rely on stored context on the server; session state is kept on the client."
+  },
+  {
+    "id": 9,
+    "type": "in_scope",
+    "question": "What are the four interface constraints that define a uniform interface in REST?",
+    "expected_pages": [
+      8
+    ],
+    "expected_keywords": [
+      "identification of resources",
+      "self-descriptive messages",
+      "hypermedia"
+    ],
+    "reference_answer": "Identification of resources; manipulation of resources through representations; self-descriptive messages; hypermedia as the engine of application state."
+  },
+  {
+    "id": 10,
+    "type": "in_scope",
+    "question": "What is a resource in REST?",
+    "expected_pages": [
+      10
+    ],
+    "expected_keywords": [
+      "resource identifier",
+      "named"
+    ],
+    "reference_answer": "The key abstraction of information in REST: any information that can be named, identified by a resource identifier."
+  },
+  {
+    "id": 11,
+    "type": "in_scope",
+    "question": "Which HTTP methods are used to fetch, create, replace, modify and remove a resource?",
+    "expected_pages": [
+      12
+    ],
+    "expected_keywords": [
+      "GET",
+      "POST",
+      "PUT",
+      "PATCH",
+      "DELETE"
+    ],
+    "reference_answer": "GET fetches, POST creates, PUT replaces an entire resource, PATCH modifies parts of a resource, DELETE removes a resource."
+  },
+  {
+    "id": 12,
+    "type": "in_scope",
+    "question": "What are web services?",
+    "expected_pages": [
+      13
+    ],
+    "expected_keywords": [
+      "standardized ways",
+      "platform-independent"
+    ],
+    "reference_answer": "Standardized ways for applications to communicate and exchange data over a network using protocols like HTTP, across different languages and platforms."
+  },
+  {
+    "id": 13,
+    "type": "in_scope",
+    "question": "What is the difference between SOAP and RESTful web services?",
+    "expected_pages": [
+      14
+    ],
+    "expected_keywords": [
+      "XML-based",
+      "JSON",
+      "lightweight"
+    ],
+    "reference_answer": "SOAP uses XML-based messaging with strict standards (WSDL, UDDI) and suits enterprises; REST exchanges JSON or XML, is lightweight, and suits web and mobile apps."
+  },
+  {
+    "id": 14,
+    "type": "in_scope",
+    "question": "Explain the publish-subscribe model.",
+    "expected_pages": [
+      15
+    ],
+    "expected_keywords": [
+      "Publishers",
+      "Subscribers",
+      "topic"
+    ],
+    "reference_answer": "Publishers send messages to a topic without knowing the receivers; subscribers subscribe to topics and a broker delivers messages to them, asynchronously and decoupled."
+  },
+  {
+    "id": 15,
+    "type": "in_scope",
+    "question": "Why is virtualization important in cloud computing?",
+    "expected_pages": [
+      17
+    ],
+    "expected_keywords": [
+      "physical machine",
+      "efficient use"
+    ],
+    "reference_answer": "It allows efficient use of resources; without it providers would need one physical machine per user or service, which is costly and inefficient."
+  },
+  {
+    "id": 16,
+    "type": "in_scope",
+    "question": "What is a hypervisor?",
+    "expected_pages": [
+      19,
+      20
+    ],
+    "expected_keywords": [
+      "hypervisor",
+      "intermediary"
+    ],
+    "reference_answer": "The software that makes virtualization work; an intermediary between the physical computer and the virtual machines that controls their use of CPU and memory."
+  },
+  {
+    "id": 17,
+    "type": "in_scope",
+    "question": "What types of virtualization are described in the slides?",
+    "expected_pages": [
+      22,
+      23,
+      24
+    ],
+    "expected_keywords": [
+      "Application Virtualization",
+      "Network Virtualization",
+      "Desktop Virtualization",
+      "Storage Virtualization",
+      "Server Virtualization",
+      "Data Virtualization"
+    ],
+    "reference_answer": "Application, network, desktop, storage, server and data virtualization."
+  },
+  {
+    "id": 18,
+    "type": "in_scope",
+    "question": "Give an example of storage virtualization.",
+    "expected_pages": [
+      23
+    ],
+    "expected_keywords": [
+      "Amazon S3"
+    ],
+    "reference_answer": "Amazon S3."
+  },
+  {
+    "id": 19,
+    "type": "in_scope",
+    "question": "What is server virtualization and which software can be used for it?",
+    "expected_pages": [
+      24
+    ],
+    "expected_keywords": [
+      "VMware vSphere",
+      "Hyper-V",
+      "KVM"
+    ],
+    "reference_answer": "It splits one physical server into multiple independent virtual servers; examples are VMware vSphere, Microsoft Hyper-V and KVM."
+  },
+  {
+    "id": 20,
+    "type": "in_scope",
+    "question": "What are the five implementation levels of virtualization?",
+    "expected_pages": [
+      25,
+      26,
+      27
+    ],
+    "expected_keywords": [
+      "Instruction Set Architecture",
+      "Hardware Abstraction",
+      "Operating System Level",
+      "Library Support",
+      "Application Level"
+    ],
+    "reference_answer": "Instruction Set Architecture (ISA), Hardware Abstraction Level (HAL), Operating System level, Library Support level and Application level."
+  },
+  {
+    "id": 21,
+    "type": "in_scope",
+    "question": "What is the difference between hosted and bare metal virtualization architecture?",
+    "expected_pages": [
+      31
+    ],
+    "expected_keywords": [
+      "Hosted",
+      "Bare Metal",
+      "directly on the hardware"
+    ],
+    "reference_answer": "In hosted architecture the hypervisor runs on top of a host operating system; in bare metal it is installed directly on the hardware, not on top of an operating system."
+  },
+  {
+    "id": 22,
+    "type": "in_scope",
+    "question": "Which open-source virtualization tool supports both full and para virtualization?",
+    "expected_pages": [
+      34
+    ],
+    "expected_keywords": [
+      "Xen",
+      "Para-Virtualization"
+    ],
+    "reference_answer": "Xen (originally from Cambridge University); it was the only bare-metal solution available as open source."
+  },
+  {
+    "id": 23,
+    "type": "in_scope",
+    "question": "What is Docker?",
+    "expected_pages": [
+      35
+    ],
+    "expected_keywords": [
+      "Docker",
+      "containers"
+    ],
+    "reference_answer": "An open-source tool that uses containers to distribute Linux applications, including code, runtime, system tools and libraries."
+  },
+  {
+    "id": 24,
+    "type": "in_scope",
+    "question": "What is para virtualization?",
+    "expected_pages": [
+      36
+    ],
+    "expected_keywords": [
+      "Guest-OS",
+      "superior performance"
+    ],
+    "reference_answer": "The guest OS knows it is running in a virtualized environment, which reduces virtualization overhead and gives better performance."
+  },
+  {
+    "id": 25,
+    "type": "in_scope",
+    "question": "Which processors provide hardware support for virtualization?",
+    "expected_pages": [
+      38
+    ],
+    "expected_keywords": [
+      "VT-x",
+      "AMD-V"
+    ],
+    "reference_answer": "Intel VT-x and AMD-V support hardware-assisted virtualization."
+  },
+  {
+    "id": 26,
+    "type": "in_scope",
+    "question": "What are the three types of CPU instructions in CPU virtualization?",
+    "expected_pages": [
+      39
+    ],
+    "expected_keywords": [
+      "Privileged",
+      "Control-Sensitive",
+      "Behavior-Sensitive"
+    ],
+    "reference_answer": "Privileged, control-sensitive and behavior-sensitive instructions."
+  },
+  {
+    "id": 27,
+    "type": "in_scope",
+    "question": "How does memory virtualization map addresses?",
+    "expected_pages": [
+      40
+    ],
+    "expected_keywords": [
+      "Two-Level",
+      "machine memory"
+    ],
+    "reference_answer": "Two-level mapping: the guest OS maps virtual memory to physical memory, and the VMM maps guest physical memory to machine memory."
+  },
+  {
+    "id": 28,
+    "type": "in_scope",
+    "question": "What are the three methods of I/O virtualization?",
+    "expected_pages": [
+      41
+    ],
+    "expected_keywords": [
+      "Full Device Emulation",
+      "Para virtualization",
+      "Direct I/O"
+    ],
+    "reference_answer": "Full device emulation, para virtualization (split driver model) and direct I/O virtualization."
+  },
+  {
+    "id": 29,
+    "type": "in_scope",
+    "question": "How does virtualization help with disaster recovery?",
+    "expected_pages": [
+      42,
+      43,
+      44,
+      45
+    ],
+    "expected_keywords": [
+      "Snapshots",
+      "Hardware independence",
+      "Cost efficiency"
+    ],
+    "reference_answer": "Easy backup and restore with snapshots, hardware independence, cost efficiency, non-disruptive testing, reduced RTO, better RPO, scalability and simpler management."
+  },
+  {
+    "id": 30,
+    "type": "in_scope",
+    "question": "What are RTO and RPO?",
+    "expected_pages": [
+      43,
+      44
+    ],
+    "expected_keywords": [
+      "Recovery Time Objective",
+      "Recovery Point Objective"
+    ],
+    "reference_answer": "RTO is the maximum acceptable time to restore a system after a disaster; RPO is the maximum acceptable amount of data loss measured in time."
+  },
+  {
+    "id": 31,
+    "type": "in_scope",
+    "question": "What are the best practices for implementing virtualization in disaster recovery?",
+    "expected_pages": [
+      46,
+      47,
+      48
+    ],
+    "expected_keywords": [
+      "Risk Assessment",
+      "Test Regularly",
+      "Train Your Team"
+    ],
+    "reference_answer": "Conduct a risk assessment, develop a comprehensive DR plan, invest in the right tools, test regularly and train your team."
+  },
+  {
+    "id": 32,
+    "type": "out_of_scope",
+    "question": "What are IaaS, PaaS and SaaS?",
+    "expected_pages": [],
+    "expected_keywords": [],
+    "reference_answer": "Not in the document. The chatbot should reply that it could not find this."
+  },
+  {
+    "id": 33,
+    "type": "out_of_scope",
+    "question": "What is Kubernetes used for?",
+    "expected_pages": [],
+    "expected_keywords": [],
+    "reference_answer": "Not in the document. The chatbot should reply that it could not find this."
+  },
+  {
+    "id": 34,
+    "type": "out_of_scope",
+    "question": "How much does an AWS EC2 instance cost?",
+    "expected_pages": [],
+    "expected_keywords": [],
+    "reference_answer": "Not in the document. The chatbot should reply that it could not find this."
+  },
+  {
+    "id": 35,
+    "type": "out_of_scope",
+    "question": "What is the difference between a public cloud and a private cloud?",
+    "expected_pages": [],
+    "expected_keywords": [],
+    "reference_answer": "Not in the document. The chatbot should reply that it could not find this."
+  },
+  {
+    "id": 36,
+    "type": "out_of_scope",
+    "question": "Who won the 2011 Cricket World Cup?",
+    "expected_pages": [],
+    "expected_keywords": [],
+    "reference_answer": "Not in the document. The chatbot should reply that it could not find this."
+  }
+]

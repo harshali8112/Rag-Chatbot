@@ -1,0 +1,6 @@
+date,note,chunk_size,overlap,k,mmr,questions,page_hit_pct,keyword_hit_pct,keyword_cover_pct
+2026-10-17,baseline,500,50,5,False,31,96.8,100.0,93.5
+2026-10-17,bigger chunks,800,100,5,False,31,96.8,100.0,97.7
+2026-10-17,1000 chars,1000,150,4,False,31,96.8,100.0,96.1
+2026-10-17,mmr,500,50,5,True,31,93.5,96.8,86.6
+2026-10-17,800/100 with answers,800,100,5,False,31,96.8,100.0,97.7
